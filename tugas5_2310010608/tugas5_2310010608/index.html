@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Produk Toko | Riyan Rusmana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar tetap di bagian atas halaman -->
+  <nav class="navbar">
+    <a class="brand" href="#beranda">Riyan Store</a>
+    <div class="nav-links">
+      <a href="#beranda">Beranda</a>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang</a>
+    </div>
+  </nav>
+
+  <!-- Konten utama diberi padding-top untuk mengimbangi navbar fixed -->
+  <main id="beranda" class="page-content">
+    <header class="hero">
+      <p class="eyebrow">TUGAS 5 · PEMROGRAMAN WEB</p>
+      <h1>Kartu Produk Toko</h1>
+      <p class="intro">Temukan produk pilihan dengan tampilan sederhana, rapi, dan nyaman dilihat.</p>
+      <div class="student-info">
+        <span>Nama: <strong>Riyan Rusmana</strong></span>
+        <span>NPM: <strong>2310010608</strong></span>
+      </div>
+    </header>
+
+    <!-- Elemen sticky akan menempel di bawah navbar ketika halaman digulir -->
+    <section id="produk" class="products-section">
+      <div class="category-sticky">
+        <h2>Produk Pilihan</h2>
+        <span>4 produk tersedia</span>
+      </div>
+
+      <div class="product-list">
+        <!-- Kartu produk 1 -->
+        <article class="product-card">
+          <span class="badge">Diskon</span>
+          <div class="product-image">
+            <img src="https://m.media-amazon.com/images/I/71ZTB8yqb3L.jpg" alt="Headphone Tactical Army Grade">
+          </div>
+          <div class="product-details">
+            <p class="product-category">Elektronik</p>
+            <h3>Headphone Tactical Army Grade</h3>
+            <p class="description">Audio jernih dengan desain nyaman untuk aktivitas outdoor dengan Army Grade Material.</p>
+            <div class="price-row">
+              <span class="price">Rp1.500.000</span>
+              <span class="old-price">Rp1.799.000</span>
+            </div>
+            <button class="buy-button" type="button">Beli</button>
+          </div>
+        </article>
+
+        <!-- Kartu produk 2 -->
+        <article class="product-card">
+          <span class="badge badge-new">Baru</span>
+          <div class="product-image">
+            <img src="https://i0.wp.com/cartenztactical.com/wp-content/uploads/2026/03/3797-01_cover_master_cw_71015.webp?fit=1200%2C1200&ssl=1" alt="Tas Ransel Tactical">
+          </div>
+          <div class="product-details">
+            <p class="product-category">Aksesori</p>
+            <h3>Tas Ransel Tactical</h3>
+            <p class="description">Tas serbaguna dengan ruang penyimpanan luas untuk aktivitas outdoor maupun indoor.</p>
+            <div class="price-row">
+              <span class="price">Rp2.950.000</span>
+            </div>
+            <button class="buy-button" type="button">Beli</button>
+          </div>
+        </article>
+
+        <!-- Kartu produk 3 -->
+        <article class="product-card">
+          <span class="badge badge-fav">Favorit</span>
+          <div class="product-image">
+            <img src="https://m.media-amazon.com/images/I/71dG+5Y6TCL._AC_UY1000_.jpg" alt="Jam tangan Military Grade">
+          </div>
+          <div class="product-details">
+            <p class="product-category">Gaya hidup</p>
+            <h3>Jam Tangan Tactical</h3>
+            <p class="description">Tampilan elegan dan sederhana yang cocok untuk berbagai kesempatan dan sudah Military Grade.</p>
+            <div class="price-row">
+              <span class="price">Rp999.000</span>
+            </div>
+            <button class="buy-button" type="button">Beli</button>
+          </div>
+        </article>
+
+        <!-- Kartu produk 4 -->
+        <article class="product-card">
+          <span class="badge badge-new">Baru</span>
+          <div class="product-image">
+            <img src="https://contents.mediadecathlon.com/p3043933/k$49485fb5325bab0215c7fa64ac366398/botol-minum-stainless-steel-flask-900-0-35l-hijau-quechua-8971231.jpg?f=1920x0&format=auto" alt="Botol minum stainless">
+          </div>
+          <div class="product-details">
+            <p class="product-category">Perlengkapan</p>
+            <h3>Botol Minum Stainless</h3>
+            <p class="description">Botol minum praktis untuk membantu menjaga kebutuhan cairan setiap hari.</p>
+            <div class="price-row">
+              <span class="price">Rp399.000</span>
+            </div>
+            <button class="buy-button" type="button">Beli</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Bagian tambahan untuk menunjukkan link navbar dan ruang scroll -->
+    <section id="tentang" class="about-section">
+      <h2>Tentang Riyan Store</h2>
+      <p>Riyan Store menyediakan pilihan produk untuk menunjang aktivitas harian khususnya aktivitas outdoor. Desain halaman ini menerapkan box model, position, overflow, dan efek hover menggunakan CSS eksternal.</p>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Riyan Store · Riyan Rusmana · 2310010608</p>
+    </footer>
+  </main>
+</body>
+</html>
